@@ -25,7 +25,7 @@ pod 'SwiftLint'
 
 
 **3.** Set specific rules, this step is optional if satisfied with dafualt rules.
-> In terminal, change to directly then create `.swiftLint.yml` file.
+* In terminal, change to directly then create `.swiftLint.yml` file.
 * A sample `.swiftlint.yml` file would look like below
 > For a whole list of rules check the link https://realm.github.io/SwiftLint/rule-directory.html
 ```
