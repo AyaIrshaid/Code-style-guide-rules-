@@ -12,11 +12,15 @@ pod 'SwiftLint'
 ```
 
 **2.** Add the script: 
+* Select the project -> Target -> Build Phases
+* Click on (+) button -> New Run Script Phase
+* Add the following text:
 > Note that script is different based on the way of installation, check the link above.
 ```
 "${PODS_ROOT}/SwiftLint/swiftlint"
 ```
-![Adding the script from Build Phases.](Screenshots/1.png)
+![Adding the script from Build Phases.](./Screenshots/1.png)
+
 
 **3.** Set specific rules, this step is optional if satisfied with dafualt rules.
 > In terminal, change to directly then create `.swiftLint.yml` file.
