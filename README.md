@@ -21,7 +21,10 @@ pod 'SwiftLint'
 "${PODS_ROOT}/SwiftLint/swiftlint"
 ```
 ![Adding the script from Build Phases.](./Screenshots/1.png)
-
+> Note: In case faced with "duplicate report for Sandbox" error from xcode, set build settings of project to:
+```
+User Script Sandboxing = No
+```
 
 
 **3.** Set specific rules, this step is optional if satisfied with dafualt rules.
